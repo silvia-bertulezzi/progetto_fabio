@@ -741,6 +741,7 @@ dependencies = [
     { name = "pandas" },
     { name = "polars" },
     { name = "pyarrow" },
+    { name = "pyogrio" },
 ]
 
 [package.metadata]
@@ -753,6 +754,7 @@ requires-dist = [
     { name = "pandas", specifier = ">=3.0.2" },
     { name = "polars", specifier = ">=1.40.1" },
     { name = "pyarrow", specifier = ">=24.0.0" },
+    { name = "pyogrio", specifier = ">=0.12.1" },
 ]
 
 [[package]]
